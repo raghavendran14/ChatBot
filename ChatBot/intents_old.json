@@ -1,0 +1,37 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi","Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome"],
+         "context": [""]
+        },
+        {"tag": "dealmagikQuery",
+         "patterns": ["What is dealmagik?","What is dealamgik", "What about dealmagik"],
+         "responses": ["DealMagik was started in 2022 when the founders felt that the current Marketplace platforms are not really helping businesses much, once the associated costs are factored in. DealMagik offers businesses a platform to run their business and a marketplace to promote their business. For consumers, it provides a unified portal to find great deals and bundle additional items."],
+         "context": [""]
+        },
+        {"tag": "dealmagikTeam",
+         "patterns": ["How is dealmagik team?", "How are the team memebrs?"],
+         "responses": ["Hard working team memebers are so good","Awsome team","Team members are ultimate"],
+         "context": [""]
+        },
+        {"tag": "dealmagikContact",
+        "patterns": ["How do I Contact DealMagik Consumer Support?", "Give the dealmagik suport number?","DealMagik Consumer Support","DealMagik Consumer Support team"],
+        "responses": ["There are 2 ways to contact our Support team 1. Call our Consumer Support Hotline - 973-265-0720 2. On the bottom is a Contact Us link - please submit with as much detail as you can provide","Consumer Support Hotline - 973-265-0720 2."],
+        "context": [""]
+       },
+       {"tag": "dealmagikFlashDeals",
+       "patterns": ["What is a Flash Deal?", "Tell me more about flash deal"],
+       "responses": ["Flash Deals are Same Day Final Sale deals only. All sales are final. Returns and Refunds are not possible.","Awsome Deals"],
+       "context": [""]
+      }
+    ]}
