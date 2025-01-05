@@ -1,4 +1,4 @@
-# ChatBot
+# ChatBot - this project is includes both front end and back end
 
 Talk to me - React + Python
 
@@ -11,3 +11,4 @@ npm start
 Python - install python3,
 pip install -r requirements.txt
 run chatbot.py
+
